@@ -1,0 +1,13 @@
+prefix=/Users/nk/Documents/GitHub/Customer-Attrition-Prediction/.conda
+exec_prefix=/Users/nk/Documents/GitHub/Customer-Attrition-Prediction/.conda
+libdir=/Users/nk/Documents/GitHub/Customer-Attrition-Prediction/.conda/lib
+sharedlibdir=/Users/nk/Documents/GitHub/Customer-Attrition-Prediction/.conda/lib
+includedir=/Users/nk/Documents/GitHub/Customer-Attrition-Prediction/.conda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
